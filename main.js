@@ -20,14 +20,16 @@ document.body.appendChild( renderer.domElement );
 
 
 //Schritt 2: Anlegen eines Würfel- Objektes und hinzufügen zu der Szene
+/*
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
-
 camera.position.z = 5;
+*/
 
 //Schritt 3: Szene Rendern
+/*
 function animate() {
 	requestAnimationFrame( animate );
 
@@ -37,7 +39,7 @@ function animate() {
 	renderer.render( scene, camera );
 }
 animate();
-
+*/
 
 //Schritt 4: Animieren unserers Würfels
 /*
